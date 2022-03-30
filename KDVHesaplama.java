@@ -1,7 +1,10 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class KDVHesaplama {
     public static void main(String[] args) {
+       
+
+
         //Variables
         double tutar , kdvOran = 0.18 , kdvTutar , kdvliTutar;
 
@@ -19,5 +22,7 @@ public class KDVHesaplama {
         System.out.println("KDV'li Tutari :" + kdvliTutar);
 
         input.close();
+    
+
     }
 }
