@@ -29,8 +29,16 @@ public class GradeAverage {
         grade1.close();
         
 		average = (math + phys + chem + bio + eng)/5;
+
+		System.out.print("Your Average : " + average + "-");
+
+		if(average>=60){
+			System.out.println("Passed!!");
+		}else{
+			System.out.println("Failed!!");
+		}
 		
-		System.out.print("Your Average : " + average);
+		
 
 
     }
